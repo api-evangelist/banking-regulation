@@ -1,12 +1,22 @@
+aid: banking-regulation
 name: Banking Regulation
-description: Banking Regulation is a specialized technology or methodology in the
-  banking domain that addresses specific technical or business requirements. It provides
-  targeted capabilities that help practitioners and organizations solve problems and
-  improve outcomes in their area of focus.
-url: null
+description: >-
+  Banking regulation encompasses the rules, standards, and frameworks governing
+  banks and financial institutions, including Basel accords, capital adequacy
+  requirements, and compliance technology solutions.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Banking Regulation
-created: '2025'
-modified: '2025'
+  - Banking Regulation
+  - Compliance
+  - Finance
+  - Banking
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/banking-regulation/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
