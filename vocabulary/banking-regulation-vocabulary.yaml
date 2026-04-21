@@ -1,0 +1,52 @@
+vocabulary:
+  name: Banking Regulation Vocabulary
+  description: Core terms and concepts in banking regulation, RegTech, and financial compliance frameworks.
+  terms:
+    - term: Basel Accords
+      definition: A set of international banking regulations issued by the Basel Committee on Banking Supervision (BCBS) establishing capital adequacy and risk management standards for banks.
+    - term: Basel III
+      definition: The third Basel Accord, establishing minimum capital requirements, leverage ratios, and liquidity coverage ratios for internationally active banks.
+    - term: Basel IV
+      definition: Informal name for the 2017 finalized Basel III reforms, introducing standardized approaches for credit, market, and operational risk capital calculations.
+    - term: Capital Adequacy Ratio (CAR)
+      definition: The ratio of a bank's capital to its risk-weighted assets, used to ensure the bank can absorb losses and protect depositors.
+    - term: Risk-Weighted Assets (RWA)
+      definition: A bank's assets weighted by credit risk category to determine minimum capital requirements.
+    - term: Tier 1 Capital
+      definition: A bank's core capital including common equity and disclosed reserves, used as the primary measure of financial strength.
+    - term: Dodd-Frank Act
+      definition: US legislation enacted in 2010 reforming financial regulation to reduce systemic risk, improve transparency, and protect consumers.
+    - term: PSD2
+      definition: EU Payment Services Directive 2 - regulatory framework requiring banks to open payment infrastructure and account data to authorized third parties.
+    - term: CRD IV / V
+      definition: EU Capital Requirements Directive - EU law implementing Basel III capital and governance standards for credit institutions.
+    - term: AML
+      definition: Anti-Money Laundering - regulatory requirements for detecting, preventing, and reporting money laundering activities.
+    - term: BSA
+      definition: Bank Secrecy Act - US law requiring financial institutions to assist government agencies in detecting and preventing money laundering.
+    - term: KYC
+      definition: Know Your Customer - regulatory obligation to verify the identity and assess the risk profile of customers.
+    - term: DORA
+      definition: Digital Operational Resilience Act - EU regulation requiring financial institutions to manage ICT risk and demonstrate digital operational resilience.
+    - term: CCAR
+      definition: Comprehensive Capital Analysis and Review - US Federal Reserve program requiring large banks to demonstrate adequate capital under stress scenarios.
+    - term: DFAST
+      definition: Dodd-Frank Act Stress Testing - mandatory stress tests for US banks to evaluate capital adequacy under adverse economic scenarios.
+    - term: FRTB
+      definition: Fundamental Review of the Trading Book - Basel Committee standards for minimum capital requirements for market risk.
+    - term: FINREP
+      definition: Financial Reporting - EBA harmonized reporting framework for EU banks' financial statements.
+    - term: COREP
+      definition: Common Reporting - EBA regulatory reporting framework for capital adequacy under CRD.
+    - term: RegTech
+      definition: Regulatory Technology - the use of technology to automate compliance, regulatory reporting, risk management, and monitoring.
+    - term: SAR
+      definition: Suspicious Activity Report - a report filed by financial institutions to regulators when potential money laundering or fraud is detected.
+    - term: CTR
+      definition: Currency Transaction Report - a report filed for cash transactions exceeding $10,000 in the US.
+    - term: FinCEN
+      definition: Financial Crimes Enforcement Network - US Treasury bureau that collects and analyzes financial transaction data to combat money laundering.
+    - term: EBA
+      definition: European Banking Authority - EU regulatory agency responsible for banking supervision and regulatory standards.
+    - term: FFIEC
+      definition: Federal Financial Institutions Examination Council - US interagency body prescribing uniform standards for federal examination of financial institutions.

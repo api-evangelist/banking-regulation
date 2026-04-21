@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api-evangelist.github.io/banking-regulation/json-schema/regulatory-report-schema.json",
+  "title": "RegulatoryReport",
+  "description": "A regulatory report submission by a financial institution to a supervisory authority.",
+  "type": "object",
+  "properties": {
+    "reportId": {
+      "type": "string",
+      "description": "Unique identifier for the report submission."
+    },
+    "reportType": {
+      "type": "string",
+      "enum": ["COREP", "FINREP", "FR Y-9C", "CCAR", "DFAST", "AML-SAR", "CTR"],
+      "description": "Type of regulatory report."
+    },
+    "institutionId": {
+      "type": "string",
+      "description": "Identifier of the reporting financial institution."
+    },
+    "regulatoryBody": {
+      "type": "string",
+      "description": "Supervisory authority the report is submitted to (e.g., EBA, Federal Reserve, FinCEN)."
+    },
+    "reportingPeriod": {
+      "type": "object",
+      "properties": {
+        "startDate": {"type": "string", "format": "date"},
+        "endDate": {"type": "string", "format": "date"}
+      },
+      "required": ["startDate", "endDate"]
+    },
+    "submissionDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time the report was submitted."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "submitted", "accepted", "rejected", "under_review"],
+      "description": "Current status of the report submission."
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Regulatory jurisdiction (e.g., EU, US, UK)."
+    }
+  },
+  "required": ["reportId", "reportType", "institutionId", "regulatoryBody", "reportingPeriod", "status"]
+}

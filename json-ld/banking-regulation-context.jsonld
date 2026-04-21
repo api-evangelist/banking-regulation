@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "reg": "https://api-evangelist.github.io/banking-regulation/vocab/",
+    "schema": "https://schema.org/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "RegulatoryFramework": {
+      "@id": "reg:RegulatoryFramework",
+      "@type": "@id"
+    },
+    "CapitalRequirement": {
+      "@id": "reg:CapitalRequirement",
+      "@type": "@id"
+    },
+    "RegulatoryReport": {
+      "@id": "reg:RegulatoryReport",
+      "@type": "@id"
+    },
+    "ComplianceObligation": {
+      "@id": "reg:ComplianceObligation",
+      "@type": "@id"
+    },
+    "AMLAlert": {
+      "@id": "reg:AMLAlert",
+      "@type": "@id"
+    },
+    "KYCRecord": {
+      "@id": "reg:KYCRecord",
+      "@type": "@id"
+    },
+    "StressTestScenario": {
+      "@id": "reg:StressTestScenario",
+      "@type": "@id"
+    },
+    "capitalAdequacyRatio": {
+      "@id": "reg:capitalAdequacyRatio",
+      "@type": "xsd:decimal"
+    },
+    "tier1CapitalRatio": {
+      "@id": "reg:tier1CapitalRatio",
+      "@type": "xsd:decimal"
+    },
+    "riskWeightedAssets": {
+      "@id": "reg:riskWeightedAssets",
+      "@type": "xsd:decimal"
+    },
+    "reportingPeriod": {
+      "@id": "reg:reportingPeriod",
+      "@type": "xsd:string"
+    },
+    "jurisdiction": {
+      "@id": "reg:jurisdiction",
+      "@type": "xsd:string"
+    },
+    "regulatoryBody": {
+      "@id": "reg:regulatoryBody",
+      "@type": "xsd:string"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url"
+  }
+}

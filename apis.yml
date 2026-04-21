@@ -20,7 +20,7 @@ tags:
   - RegTech
 url: https://raw.githubusercontent.com/api-evangelist/banking-regulation/refs/heads/main/apis.yml
 created: '2025-01-01'
-modified: '2026-04-19'
+modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
@@ -39,6 +39,10 @@ common:
   - type: Website
     url: https://www.ffiec.gov/
     name: Federal Financial Institutions Examination Council
+  - type: Vocabulary
+    url: vocabulary/banking-regulation-vocabulary.yaml
+  - type: JSON-LD
+    url: json-ld/banking-regulation-context.jsonld
   - name: Key Frameworks
     type: UseCases
     data:

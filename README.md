@@ -10,7 +10,7 @@ Banking regulation encompasses the rules, standards, and frameworks governing ba
 ## Timestamps
 
 - **Created:** 2025-01-01
-- **Modified:** 2026-04-19
+- **Modified:** 2026-04-21
 
 ## Key Frameworks
 
@@ -44,6 +44,8 @@ Banking regulation encompasses the rules, standards, and frameworks governing ba
 - [Federal Reserve Supervision & Regulation](https://www.federalreserve.gov/supervisionreg.htm)
 - [European Banking Authority](https://www.eba.europa.eu/)
 - [Federal Financial Institutions Examination Council](https://www.ffiec.gov/)
+- [Vocabulary](vocabulary/banking-regulation-vocabulary.yaml)
+- [JSON-LD Context](json-ld/banking-regulation-context.jsonld)
 
 ## Maintainers
 
