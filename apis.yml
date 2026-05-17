@@ -41,7 +41,7 @@ common:
     name: Federal Financial Institutions Examination Council
   - type: Vocabulary
     url: vocabulary/banking-regulation-vocabulary.yaml
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/banking-regulation-context.jsonld
   - name: Key Frameworks
     type: UseCases
