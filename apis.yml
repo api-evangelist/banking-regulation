@@ -24,6 +24,8 @@ modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/banking-regulation-domain-security.yml
   - type: Website
     url: https://www.bis.org/
     name: Bank for International Settlements
